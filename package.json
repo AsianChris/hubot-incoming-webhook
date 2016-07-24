@@ -17,7 +17,7 @@
     "Chris Baptista <chris@asianchris.com>"
   ],
   "license": "MIT",
-  "repository": "https://github.com/AsianChris/hubot-incoming-webhook"
+  "repository": "https://github.com/AsianChris/hubot-incoming-webhook",
   "engines": {
     "node": ">=4.0.0",
     "npm": ">=3.0.0"
