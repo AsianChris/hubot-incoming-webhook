@@ -27,7 +27,7 @@
         message.forEach(line(function(line) {
           return robot.messageRoom(room, line);
         }
-      }
+      });
 
       res.send(200);
     });
