@@ -24,10 +24,10 @@
       if (typeof message === 'string') {
         robot.messageRoom(room, message);
       } else if (message instanceof Array) {
-        message.forEach(line(function(line) {
+        message.forEach(function(line) {
           return robot.messageRoom(room, line);
-        }
-      });
+        });
+      };
 
       res.send(200);
     });
